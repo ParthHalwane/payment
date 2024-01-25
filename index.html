@@ -9,12 +9,12 @@
 
 <!-- Displaying the QR code -->
 <img id="upiQrCode" src="qr.jpg" alt="UPI QR Code">
-<a href="upi://pay?pa=parthhalwane@okaxis&pn=Parth%20Halwane&am=400.00&cu=INR&aid=uGICAgIC_7NWqCA">Pay</a>
+<!-- <a href="upi://pay?pa=parthhalwane@okaxis&pn=Parth%20Halwane&am=400.00&cu=INR&aid=uGICAgIC_7NWqCA">Pay</a> -->
 <script>
 // Adding click event listener to the QR code
 document.getElementById('upiQrCode').addEventListener('click', function() {
     // Deep link for Google Pay (replace with the appropriate deep link for other UPI apps)
-    var deepLink = 'https://pay.google.com/gp?v=upi://pay?pa=parthhalwane@okaxis&pn=Parth%20Halwane&am=400.00&cu=INR&aid=uGICAgIC_7NWqCA&url=https://payment-eight-rho.vercel.app';
+    var deepLink = 'upi://pay?pa=parthhalwane@okaxis&pn=Parth%20Halwane&am=400.00&cu=INR&aid=uGICAgIC_7NWqCA';
 
 
     // Opening a pop-up window
